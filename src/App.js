@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './App.css';
+import VideoChat from './VideoChat';
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
         <h1>Video Chat with Hooks</h1>
       </header>
       <main>
-        <p>VideoChat goes here.</p>
+        <VideoChat />
       </main>
       <footer>
         <p>
